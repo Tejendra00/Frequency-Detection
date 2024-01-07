@@ -11,7 +11,7 @@
 This project involves creating a detection system to identify specific frequency signals in the presence of ambient noise using an ATmega32U4 microcontroller. The system is designed to detect signals at 25Hz, 200Hz and 662Hz. These frequencies are relevant in various signal processing applications where ambient noise can interfere with signal detection.
 
 <p align="center">
-  <img src="imgs/circuit.png"width="300" >
+  <img src="imgs/circuit.png"width="400" >
 </p>
 
 
@@ -25,7 +25,7 @@ This project involves creating a detection system to identify specific frequency
 
 
 <p align="center">
-  <img src="imgs/circuit2.png"width="300" >
+  <img src="imgs/circuit2.png"width="400" >
 </p>
 
 ## Implementation
@@ -47,7 +47,7 @@ The code configures the microcontroller to measure the frequency of a signal cap
 The system successfully detects the presence of 25Hz, 662Hz, and 200Hz signals within an environment with ambient noise. The detection is visually confirmed through the illumination of specific LEDs and the frequency values are outputted via USB. The system also works at about distance of 2 meters which shows the consistency and usefullnes of circuit.
 
 <p align="center">
-  <img src="imgs/disdet.gif"width="300" >
+  <img src="imgs/disdet.gif"width="600" >
 </p>
 
 ## Challenges and Considerations
